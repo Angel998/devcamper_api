@@ -37,6 +37,7 @@ const BootcampSchema = new mongoose.Schema({
     type: String,
     required: [true, "Please add an address"]
   },
+  /* 
   location: {
     // GeoJSON
     type: {
@@ -67,7 +68,7 @@ const BootcampSchema = new mongoose.Schema({
       "Business",
       "Other"
     ]
-  },
+  },*/
   averageRating: {
     type: Number,
     min: [1, "Rating must be at least 1"],
